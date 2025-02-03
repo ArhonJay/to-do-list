@@ -1,0 +1,14 @@
+[
+    {
+      "text": "Eat breakfast",
+      "completed": false
+    },
+    {
+      "text": "Sleep well",
+      "completed": true
+    },
+    {
+      "text": "Add something here in this format",
+      "completed": false
+    }
+]
