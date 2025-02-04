@@ -1,18 +1,22 @@
 [
     {
       "text": "Eat breakfast",
-      "completed": false
+      "completed": false,
+      "user": "Aaron"
     },
     {
       "text": "Sleep well",
-      "completed": true
+      "completed": true,
+      "user": "Aaron"
     },
     {
       "text": "Make new learnings with mentor Sopeña",
-      "completed": false
+      "completed": false,
+      "user": "Tristan"
     },
     {
       "text": "Playing pokemon",
-      "completed": false
+      "completed": false,
+      "user": "Aaron"
     }
 ]

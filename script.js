@@ -5,16 +5,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const loadTasksFromFile = (tasks) => {
     tasks.forEach(task => {
-      addTaskToDOM(task.text, task.completed);
+      addTaskToDOM(task.text, task.completed, task.user);
     });
   };
 
-  const addTaskToDOM = (text, completed = false) => {
+  const addTaskToDOM = (text, completed = false, user) => {
     const li = document.createElement('li');
-    const span = document.createElement('span');
-    span.innerText = text;
-    span.contentEditable = true;
-    li.appendChild(span);
+    const div = document.createElement('div');
+    const text_span = document.createElement('span');
+    const user_span = document.createElement('span');
+    text_span.innerText = text;
+    user_span.innerText = user;
+    div.className = 'task_tag';
+    user_span.className = 'user_tag';
+    div.appendChild(text_span);
+    div.appendChild(user_span);
+    li.appendChild(div);    
     if (completed) {
       li.classList.add('completed');
       const completeText = document.createElement('span');
