@@ -18,5 +18,10 @@
       "text": "Playing pokemon",
       "completed": false,
       "user": "Aaron"
+    },
+    {
+      "text": "Play genshin",
+      "completed": false,
+      "user": "Pia"
     }
 ]
