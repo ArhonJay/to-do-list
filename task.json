@@ -20,6 +20,7 @@
       "user": "Aaron"
     },
     {
+<<<<<<< HEAD
       "text": "naga-lulu",
       "completed": false,
       "user": "Syilu"
@@ -28,5 +29,10 @@
       "text": "nagi-gitara",
       "completed": true,
       "user": "Hisui"
+=======
+      "text": "Play genshin",
+      "completed": false,
+      "user": "Pia"
+>>>>>>> 5043affa42fc50899e57f73cfdda368457751376
     }
 ]
