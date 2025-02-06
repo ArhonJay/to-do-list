@@ -28,5 +28,10 @@
       "text": "nagi-gitara",
       "completed": true,
       "user": "Hisui"
+    },
+    {
+      "text": "Play genshin",
+      "completed": false,
+      "user": "Pia"
     }
 ]
